@@ -1,0 +1,14 @@
+/*
+Theme Name: BizBoost Child
+Template: BizBoost
+Author: Andrey Fernández Ramírez
+Requires PHP: 5.6
+Description: Child Theme for BizBoost
+Version: 1.0.5
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bizboost
+Tags: child-theme, portfolio
+*/
+@import url('./assets/css/styles.css');
+@import url('../bizboost/style.css');

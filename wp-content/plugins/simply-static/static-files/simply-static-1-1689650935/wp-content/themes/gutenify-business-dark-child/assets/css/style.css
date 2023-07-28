@@ -1,0 +1,65 @@
+body{color: #D8D8D8;}
+
+.no-move{
+    position: fixed;
+    background: rgb(31, 31, 31);
+    z-index: 10;
+    width: 100%;
+    margin-bottom: 5em;
+}
+
+.has-gigantic-font-size {
+    padding-top: 2.8em;
+    font-size: 3em !important;
+}
+
+.button{
+    padding: 1em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px #D8D8D8 solid;
+}
+
+.button:hover{
+    background: rgb(231, 231, 231);
+    color: black;
+}
+
+.button-small{
+    padding: .5em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px #f8d63c solid;
+    color: #f1c225;
+}
+.button-small:hover{
+    background: #f1c225;
+    color: black;
+}
+
+.titulo-pagina{
+    padding-top: 2em;
+    font-size: 3.5em !important;
+}
+
+
+.margin-hr{padding-bottom: 2.5em;}
+.padding-t{padding-top: 1em;}
+.padding-b{padding-bottom: 9em;}
+.padding-1{padding: 1em 0;}
+
+h3{padding: 2em 0 1em;}
+p{padding: 0.1em 0;}
+
+@media (max-width: 767px){
+    h1{padding-top: 0; text-align: center;}
+    h2{text-align: center;}
+    .wp-block-heading{text-align: center;}
+    .wp-block-social-links{justify-content: center !important;}
+    .button{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,14 @@
+/*
+Theme Name: Gutenify Business Dark Child
+Template: Gutenify-Business-Dark
+Author: Andrey Fernández Ramírez
+Requires PHP: 5.6
+Description: Child Theme for Gutenify Business Dark
+Version: 1.0.0
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: gutenify-business-dark
+Tags: child-theme, portfolio
+*/
+@import url('/wp-content/themes/gutenify-business-dark-child/assets/css/style.css');
+@import url('/wp-content/themes/gutenify-business-dark/style.css');
